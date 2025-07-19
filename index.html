@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/flor-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+
+    <link rel="stylesheet" href="src/styles/styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Movimenta Consórcio</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="icon-movimenta"><a href="#home"><img src="/src/images/logo-noblack.png" alt="" width="140px" id="nav_logo"></a></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer">Contato</a>
+                </li>
+            </ul>
+
+            <button onclick="redirect()" class="btn-default">
+                Faça sua simulação!
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer">Contato</a>
+                </li>
+            </ul>
+
+            <button onclick="click1()" class="btn-default">
+                Faça sua simulação!
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Você sonha a gente
+                    <span>movimenta.</span>
+                </h1>
+
+                <p class="description">
+                    Sua casa, seu carro ou seu negócio. Tudo começa com um consórcio bem planejado.
+                </p>
+
+
+                <div id="cta_buttons">
+                    <a href="https://wa.me/message/5DZOB2TI2YFUN1" class="btn-default">
+                        Faça sua simulação!
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/hero.svg" alt="">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="shape"></div>
+            <div id="abt">
+                <h1 class="section-title">Elizabeth Reis</h1>
+                <p class="section-description">
+                    Fundadora da <span>Movimenta Consórcios.</span><br><br>
+                    Profissional com mais de <span>20 anos de Consórcio</span><br><br>
+                    <span>Especialista</span> em Consórcio <br><br>
+                    Assessoria, <span>antes, durante e pós</span> contemplação.
+                </p>
+            </div>
+            <div id="img-about">
+                <img src="src/images/founder.svg" alt="">
+            </div>
+        </section>
+
+        <section id="explanation">
+            <h2 class="section-title">Como funciona o <span>Consórcio</span></h2>
+
+            <div id="concepts">
+                <div class="cts">
+                    <i class="fi fi-rr-dollar"></i>
+                    <h3 class="cts-title">
+                        Sem Juros
+                    </h3>
+                    <span class="cts-description">
+                        Você paga parcelas justas, sem juros abusivos.
+                    </span>
+                </div>
+
+
+                <div class="cts">
+                    <i class="fi fi-rr-cross"></i>
+                    <h3 class="cts-title">
+                        Sem Entrada
+                    </h3>
+                    <span class="cts-description">
+                        Comece seu plano sem precisar dar um valor inicial.
+                    </span>
+                </div>
+
+
+                <div class="cts">
+                    <i class="fi fi-rr-calendar"></i>
+                    <h3 class="cts-title">
+                        Sorteios e Lances
+                    </h3>
+                    <span class="cts-description">
+                        Chance de ser contemplado todo mês.
+                    </span>
+                </div>
+
+
+                <div class="cts">
+                    <i class="fi fi-rr-cursor-finger"></i>
+                    <h3 class="cts-title">
+                        Liberdade de escolha
+                    </h3>
+                    <span class="cts-description">
+                        Use sua carta de crédito como quiser: casa, carro, serviços e mais.
+                    </span>
+                </div>
+
+
+                <div class="cts">
+                    <i class="fi fi-rr-calendar-lines-pen"></i>
+                    <h3 class="cts-title">
+                        Com planejamento
+                    </h3>
+                    <span class="cts-description">
+                        Ideal para quem quer comprar com estratégia.
+                    </span>
+                </div>
+
+                <div class="cts">
+                    <i class="fi fi-rr-assept-document"></i>
+                    <h3 class="cts-title">
+                        Transparência
+                    </h3>
+                    <span class="cts-description">
+                        Nada de surpresas no contrato.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="customers">
+            <h2 class="section-title">
+                Clientes Contemplados
+            </h2>
+
+        <div class="videos-customer">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/I_VHwS_d3G0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="video-container">
+                <iframe src="https://youtube.com/embed/FcIr0_sy_v8?si=6zv7fcLiL0QZ1KOj" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="video-container">
+                <iframe src="https://youtube.com/embed/8fVbN3COZto?si=y-nq8wf-9BJ3MX-f" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        </section>
+
+        <section id="footer">
+            <h2 class="section-title">
+                Comece hoje a construir o seu patrimônio com estratégia e segurança. 
+            </h2>
+            <p class="ft-description">
+                Clique no botão abaixo e faça sua simulação agora mesmo!
+            </p>
+            <button onclick="click2()" class="btn-default">
+                Quero fazer uma simulação!
+            </button>
+
+            <span>Development by João Reis</span>
+
+        </section>
+    </main>
+
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

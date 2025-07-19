@@ -1,0 +1,56 @@
+#home {
+    display: flex;
+}
+
+#cta {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 14%;
+    margin-left: 10%;
+}
+
+#cta .title {
+    font-size: 3.6rem;
+    color: rgba(252, 217, 217, 1);
+}
+
+#cta .title span {
+    color: rgba(214, 113, 113, 1);
+}
+
+#cta .description {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: rgba(98, 0, 0, 1);
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 20px;
+    }
+
+    #banner,
+    #banner img {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-left: 0%;
+        padding: 40px;
+    }
+}
