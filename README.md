@@ -42,18 +42,10 @@ Atendimento consultivo e acompanhamento completo: **antes, durante e pós-contem
 
 ## 📸 Capturas de Tela
 
-*Interface: Desktop*
+###*Interface: Desktop*
 ![WhatsApp Image 2025-07-20 at 00 36 43](https://github.com/user-attachments/assets/67616ee8-8f80-4434-b928-ee3facfe04da)
-![WhatsApp Image 2025-07-20 at 00 36 44](https://github.com/user-attachments/assets/93273a26-27ca-4c56-bd07-8f1a9cbd1e78)
-![WhatsApp Image 2025-07-20 at 00 36 44 (1)](https://github.com/user-attachments/assets/f671c9bd-5952-43cb-93aa-14e05f070208)
-![WhatsApp Image 2025-07-20 at 00 36 44 (2)](https://github.com/user-attachments/assets/f8ca6cd6-56ea-4352-8311-a4de926d0bd4)
-![WhatsApp Image 2025-07-20 at 00 36 44 (3)](https://github.com/user-attachments/assets/0a91d4bd-211c-4186-956c-3e9453c79752)
 
-*Interface: Mobile*
-![WhatsApp Image 2025-07-20 at 00 43 22 (4)](https://github.com/user-attachments/assets/1e101701-3214-462b-a2e4-aa6c4678848c)
-![WhatsApp Image 2025-07-20 at 00 43 22 (3)](https://github.com/user-attachments/assets/82c76d78-90b7-4974-be01-184082fdc0ad)
-![WhatsApp Image 2025-07-20 at 00 43 22 (2)](https://github.com/user-attachments/assets/651aa1f5-1980-4a15-98b1-9742af79062b)
-![WhatsApp Image 2025-07-20 at 00 43 22 (1)](https://github.com/user-attachments/assets/3f8a875c-51a9-4b3e-bfdc-dde612780d0f)
+###*Interface: Mobile*
 ![WhatsApp Image 2025-07-20 at 00 43 22](https://github.com/user-attachments/assets/d981a741-e81d-48e1-95fb-768da7bd559d)
 
 
