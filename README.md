@@ -33,6 +33,9 @@ O site foi projetado para funcionar perfeitamente em dispositivos móveis, table
 - Vídeos de clientes reais.
 - Estilo visual em tons de vinho/bordô, reforçando a identidade visual da marca.
 
+## 🚀 Hospedagem
+https://joaolureis.github.io/landingpage-movimenta-consorcios/
+
 ## 🧑‍💼 Cliente
 
 **Elizabeth Reis**  
