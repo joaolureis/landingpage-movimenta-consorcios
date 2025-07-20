@@ -15,7 +15,9 @@
 
 
 body {
-    background-color: rgba(113, 0, 0, 1);
+    background: linear-gradient(100deg, #8B0000, #000000) !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-default {

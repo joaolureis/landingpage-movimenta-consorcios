@@ -1,5 +1,7 @@
 #home {
     display: flex;
+    background-color: rgba(113, 0, 0, 1);
+
 }
 
 #cta {
