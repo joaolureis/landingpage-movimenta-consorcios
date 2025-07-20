@@ -39,11 +39,16 @@
     #home {
         min-height: 100%;
         padding-top: 20px;
+        
+        flex-direction: column;
+        align-items: center;        /* <- ESSENCIAL */
+        justify-content: center;
     }
+
 
     #banner,
     #banner img {
-        display: none;
+        display: none !important;
     }
 
     #cta {
@@ -52,5 +57,6 @@
         align-items: center;
         margin-left: 0%;
         padding: 40px;
+        justify-content: center;
     }
 }

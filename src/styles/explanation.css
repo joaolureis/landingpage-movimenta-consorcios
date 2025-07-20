@@ -21,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     margin-top: 32px;
 }
@@ -46,18 +47,12 @@
     font-size: 40px ;
 }
 
-/* @media screen and (max-width: 768px) {
-    .cts {
-        flex: 1 1 100%;
-        max-width: 100%;
-        margin: 16px;
-    }
-} */
 
 @media screen and (max-width: 1170px) {
     #concepts {
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
         
     }
 
