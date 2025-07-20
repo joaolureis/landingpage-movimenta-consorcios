@@ -42,10 +42,10 @@ Atendimento consultivo e acompanhamento completo: **antes, durante e pós-contem
 
 ## 📸 Capturas de Tela
 
-###*Interface: Desktop*
+### Interface: Desktop
 ![WhatsApp Image 2025-07-20 at 00 36 43](https://github.com/user-attachments/assets/67616ee8-8f80-4434-b928-ee3facfe04da)
 
-###*Interface: Mobile*
+### Interface: Mobile
 ![WhatsApp Image 2025-07-20 at 00 43 22](https://github.com/user-attachments/assets/d981a741-e81d-48e1-95fb-768da7bd559d)
 
 
