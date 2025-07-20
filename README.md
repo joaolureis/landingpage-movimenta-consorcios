@@ -1,66 +1,84 @@
 # Movimenta Consórcio - Landing Page Institucional
 
-Este repositório contém o código-fonte de uma **landing page institucional** desenvolvida para a **Movimenta Consórcio**, marca da empreendedora Elizabeth Reis, especialista com mais de 20 anos de experiência no mercado de consórcios.
+Este repositório contém o código-fonte da **landing page oficial** da [Movimenta Consórcio](https://movimentaconsorcios.com.br), marca liderada por **Elizabeth Reis**, especialista com mais de 20 anos de atuação no mercado de consórcios.
+
+🔗 **Acesse o site publicado:**  
+➡️ [https://movimentaconsorcios.com.br](https://movimentaconsorcios.com.br)
+
+---
 
 ## 💼 Sobre o Projeto
 
-O objetivo do projeto é criar um site moderno, responsivo e otimizado que:
+O objetivo desta landing page foi desenvolver uma presença digital moderna, responsiva e orientada à conversão, com foco em:
 
-- Apresente a história e os diferenciais da empreendedora.
-- Explique de forma clara o funcionamento do consórcio.
-- Destaque os benefícios do serviço.
-- Facilite o contato direto com a equipe via WhatsApp.
-- Reforce a credibilidade com vídeos de clientes contemplados.
+- Apresentar a trajetória e os diferenciais da especialista Elizabeth Reis.
+- Explicar de forma objetiva como funciona o consórcio.
+- Reforçar a credibilidade com vídeos reais de clientes contemplados.
+- Oferecer navegação fluida e facilitar o contato direto via WhatsApp.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (puro e jQuery)**
-- **ScrollReveal** (animações ao rolar)
+- **JavaScript (puro + jQuery)**
+- **ScrollReveal** (efeitos de rolagem)
 - **Font Awesome & Flaticon** (ícones)
 - **Google Fonts** (Poppins e Barlow)
 
-## 📱 Responsividade
+---
 
-O site foi projetado para funcionar perfeitamente em dispositivos móveis, tablets e desktops, com navegação intuitiva e otimizada.
+## 📱 Design Responsivo
 
-## 🔗 Funcionalidades
+O layout foi cuidadosamente planejado para entregar uma experiência agradável tanto em **smartphones** quanto em **desktops**, com design leve e intuitivo.
 
-- Botões de ação com redirecionamento para o WhatsApp da empresa.
-- Menu mobile responsivo.
-- Sessões com explicações visuais sobre o consórcio.
-- Vídeos de clientes reais.
-- Estilo visual em tons de vinho/bordô, reforçando a identidade visual da marca.
+---
 
-## 🚀 Hospedagem
-https://joaolureis.github.io/landingpage-movimenta-consorcios/
+## 🔧 Funcionalidades em Destaque
+
+- Menu mobile com ícone de navegação dinâmica.
+- Redirecionamento direto para o WhatsApp da equipe comercial.
+- Sessões explicativas com identidade visual consistente (tons de vinho e bordô).
+- Vídeos integrados de clientes reais (prova social).
+- Scroll suave e animações leves para engajamento.
+
+---
+
+## 📍 Hospedagem
+
+O projeto está hospedado de forma profissional no domínio oficial:  
+🌐 **[https://movimentaconsorcios.com.br](https://movimentaconsorcios.com.br)**
+
+---
 
 ## 🧑‍💼 Cliente
 
 **Elizabeth Reis**  
 Fundadora da Movimenta Consórcio  
-Especialista em consórcios com mais de duas décadas de atuação.  
-Atendimento consultivo e acompanhamento completo: **antes, durante e pós-contemplação**.
-
-## 📸 Capturas de Tela
-
-### Interface: Desktop
-![WhatsApp Image 2025-07-20 at 00 36 43](https://github.com/user-attachments/assets/67616ee8-8f80-4434-b928-ee3facfe04da)
-
-### Interface: Mobile
-![WhatsApp Image 2025-07-20 at 00 43 22](https://github.com/user-attachments/assets/d981a741-e81d-48e1-95fb-768da7bd559d)
-
-
-## 📄 Licença
-
-Este projeto é de uso exclusivo da marca Movimenta Consórcio. **não é autorizado o uso comercial ou redistribuição sem autorização do autor do projeto.**
+Consultora especializada em consórcios, com mais de 20 anos de mercado.  
+Oferece atendimento completo: **antes, durante e após a contemplação**.
 
 ---
 
-### Desenvolvido por
+## 📸 Capturas de Tela
+
+### 💻 Versão Desktop
+![Desktop Screenshot](https://github.com/user-attachments/assets/67616ee8-8f80-4434-b928-ee3facfe04da)
+
+### 📱 Versão Mobile
+![Mobile Screenshot](https://github.com/user-attachments/assets/d981a741-e81d-48e1-95fb-768da7bd559d)
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso exclusivo da marca Movimenta Consórcio.  
+Não é permitido o uso comercial ou redistribuição sem autorização expressa do desenvolvedor.
+
+---
+
+### 👨‍💻 Desenvolvido por  
 **João Reis**  
-Development  
- 
-
-
+Desenvolvedor.
+📬 [linkedin.com/in/joaolureis](https://linkedin.com/in/joaolureis)  
