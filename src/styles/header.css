@@ -14,7 +14,7 @@ header .btn-default {
     align-items: center;
     justify-content: center;
     background-color: white;
-    color:rgba(113, 0, 0, 1);
+    color: rgba(113, 0, 0, 1);
     border-radius: 6px;
     padding: 10px 14px;
     font-weight: 600;
@@ -91,6 +91,11 @@ header .btn-default {
         align-items: center;
     }
 
+    #mobile_menu.active a:hover {
+        color: white;
+        font-weight: 600;
+    }
+
     #mobile_nav_list {
         display: flex;
         flex-direction: column;
@@ -101,5 +106,10 @@ header .btn-default {
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
+    }
+
+    .nav-item.active a {
+        color: none;
+        border-bottom: none;
     }
 }

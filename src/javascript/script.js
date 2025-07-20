@@ -5,57 +5,63 @@ $(document).ready(function () {
     });
 
     const sections = $('section');
-    const navItems = $('.nav-item');
 
     $(window).on('scroll', function () {
-        const header = $('header');
-        const scrollPosition = $(window).scrollTop() - header.outerHeight();
+        const scrollTop = $(window).scrollTop();
+        const windowHeight = $(window).height();
+        const documentHeight = $(document).height();
+        const scrollPosition = scrollTop + windowHeight / 2;
 
-        let activeSectionIndex = 0;
+        let currentSection = null;
 
-        sections.each(function(i) {
-            const section = $(this);
-            const sectionTop = section.offset().top - 96;
-            const sectionBottom = sectionTop + section.outerHeight();
+        if (scrollTop + windowHeight >= documentHeight - 10) {
+            currentSection = 'footer';
+        } else {
+            sections.each(function () {
+                const top = $(this).offset().top;
+                const bottom = top + $(this).outerHeight();
 
-            if(scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                activeSectionIndex = i;
-                return false; 
-            }
-        })
+                if (scrollPosition >= top && scrollPosition < bottom) {
+                    currentSection = $(this).attr('id');
+                }
+            });
+        }
 
-        navItems.removeClass('active');
-        $(navItems[activeSectionIndex]).addClass('active');
+        $('#nav_list .nav-item, #mobile_nav_list .nav-item').removeClass('active');
 
+        if (currentSection) {
+            $('#nav_list .nav-item a[href="#' + currentSection + '"]').parent().addClass('active');
+            $('#mobile_nav_list .nav-item a[href="#' + currentSection + '"]').parent().addClass('active');
+        }
     });
 
     ScrollReveal().reveal('#cta', {
-        origin: 'left', 
+        origin: 'left',
         duration: 3000,
         distance: '20%',
         interval: 200
     });
 
-     ScrollReveal().reveal('#abt', {
-        origin: 'right', 
+    ScrollReveal().reveal('#abt', {
+        origin: 'right',
         duration: 2000,
         distance: '20%',
         interval: 200
     });
 
     ScrollReveal().reveal('#concepts', {
-        origin: 'left', 
+        origin: 'left',
         duration: 2000,
         distance: '20%',
         interval: 200
     });
 
     ScrollReveal().reveal('.videos-customer', {
-        origin: 'left', 
+        origin: 'left',
         duration: 2000,
         distance: '20%',
         interval: 200
-    })
+    });
 });
 
 function redirect() {
