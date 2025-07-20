@@ -21,9 +21,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 24px;
     margin-top: 32px;
+}
+
+#img-about img {
+    width: 80%;
 }
 
 .cts {
